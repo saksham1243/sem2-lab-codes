@@ -1,0 +1,32 @@
+algorithm of the code for deltion,insertion and linear search
+Main Function:
+Start: Begin the program execution.
+Input n: Prompt the user to enter the number of elements (n) in the array.
+Input elements: Prompt the user to input n elements and store them in the array a[].
+Display elements: Print the elements of the array.
+Display menu: Display a menu with options for array operations: Delete, Linear Search, and Insert.
+Input choice: Prompt the user to choose an operation.
+Perform operation: Based on the user's choice, call the appropriate function: delete(), linear(), or insert().
+End: End the program execution.
+Delete Function:
+Input element to delete: Prompt the user to input the element to be deleted (x).
+Search for element: Iterate through the array to find the position (pos) of the element to be deleted.
+Check if element found: If the element is found, set a flag (c) to 1 and store its position (pos).
+Shift elements: Starting from the position of the found element (pos), shift all elements to the left by one position to overwrite the deleted element.
+Decrement array size: Decrease the size of the array (n) by 1.
+Display result: If the element was found (c==1), print the array after deletion. Otherwise, print a message indicating that the element was not found.
+End.
+Linear Search Function:
+Input element to search: Prompt the user to input the element to search for (x).
+Search for element: Iterate through the array to find the position of the element (x).
+Check if element found: If the element is found, set a flag (c) to 1.
+Display result: If the element was found (c==1), print the position of the element. Otherwise, print a message indicating that the element was not found.
+End.
+Insert Function:
+Input element to insert: Prompt the user to input the element to be inserted (x).
+Input position to insert: Prompt the user to input the position (pos) where the element will be inserted.
+Shift elements: Starting from the end of the array, shift all elements to the right from the insertion position (pos) to make space for the new element.
+Insert element: Insert the element (x) at the specified position (pos).
+Increment array size: Increase the size of the array (n) by 1.
+Display result: Print the array after insertion.
+End.
